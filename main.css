@@ -1,0 +1,97 @@
+/* ADD YOUR STYLES HERE */
+
+/* Number 1 */
+
+.table-setup {
+	width: 100%;
+/*	border-spacing: 20px 30px;  */
+}
+
+.row-setup {
+	border-top: 2px solid #C0C0C0;
+}
+
+.cell {
+	padding: 2%;
+}
+
+/* Number 2 */
+
+.number-table {
+	border-top: 2px solid #C0C0C0;
+	border-bottom: 2px solid #C0C0C0;
+}
+
+.number-row {
+	padding: 20pt;
+}
+
+.number-cell {
+	font-size: 30pt;
+	text-align: center;
+	font-weight:bold;
+}
+
+.name-cell {
+	font-size: 8pt;
+	color: #C0C0C0;
+}
+
+/* Number 3 */
+
+.bar-cell {
+	background-color: cornflowerblue;
+	padding: 5px;
+	color: white;
+}
+
+.bar-table {
+	width: 100%;
+}
+
+.bar-header {
+	width: 100px;
+	text-align: right;
+	padding: 5px;
+}
+
+/* Number 4 */
+
+.light-box-main {
+
+	position: fixed;
+	background-color: dimgray;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.light-box-window {
+	z-index: 2;
+	position: absolute;
+	top: 100px;
+	left: 20%;
+	background-color: white;
+	width: 60%;
+	height: 200px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.light-box-button {
+	z-index: 3;
+	position: absolute;
+	background-color: red;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	right: 20px;
+	bottom: 20px;
+	border-radius: 5px;
+	color: white;
+}
+
+
